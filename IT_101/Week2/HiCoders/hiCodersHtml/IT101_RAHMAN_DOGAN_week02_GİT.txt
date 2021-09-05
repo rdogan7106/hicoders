@@ -1,0 +1,69 @@
+a@DESKTOP-S3LTOI1 MINGW64 ~ (main)
+$ mkdir hicoders3
+
+a@DESKTOP-S3LTOI1 MINGW64 ~ (main)
+$ cd hicoders3
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3 (main)
+$ git clone https://github.com/rdogan7106/html.git
+Cloning into 'html'...
+warning: You appear to have cloned an empty repository.
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3 (main)
+$ cd html
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html (master)
+$ mkdir week01 week02 week03
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html (master)
+$ cd week01
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html/week01 (master)
+$ touch index.html
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html/week01 (master)
+$ cd ..
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html (master)
+$ cd week02
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html/week02 (master)
+$ touch index.html
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html/week02 (master)
+$ cd ..
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html (master)
+$ cd week03
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html/week03 (master)
+$ touch index.html
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html/week03 (master)
+$ cd ..
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html (master)
+$ git add .
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html (master)
+$ git commit -m "hafta 2 odevi"
+[master (root-commit) a965e79] hafta 2 odevi
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 week01/index.html
+ create mode 100644 week02/index.html
+ create mode 100644 week03/index.html
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 261 bytes | 130.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rdogan7106/html.git
+ * [new branch]      master -> master
+
+a@DESKTOP-S3LTOI1 MINGW64 ~/hicoders3/html (master)
+$
+
