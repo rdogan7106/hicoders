@@ -1,0 +1,28 @@
+#background{
+/* Background properties */
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+
+#rectangle-1{
+    /* rectangle-1 properties */
+    background-color: white;
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    left: 80px;
+    top: 165px;  
+}
+
+#rectangle-2{
+     /* rectangle-2 properties */
+    background-color: white;
+    height:  250px;
+    width:  80px;
+    position: absolute;
+    left:165px;
+    top: 80px;
+    
+    
+}
