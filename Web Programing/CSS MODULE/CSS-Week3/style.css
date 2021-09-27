@@ -1,0 +1,358 @@
+/* Header style  Start */
+#enterance{
+    display:block;
+    margin:5em 5em;
+    display: flex;   
+   
+}
+#samuray{   
+    border-radius: 50%;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    transform:skew(15deg);
+    -webkit-transform:skew(15deg);    
+    -moz-transform:skew(15deg);    
+    -o-transform:skew(15deg);
+        
+   }
+   #samuray-img{
+    margin-top: 4rem;
+    border-radius: 50%;
+    width: 80%;
+}
+
+h1{
+    font-size: 1em;
+}
+h1:hover{
+    color: rgb(114, 100, 237);
+    animation:blinker 0.9s linear infinite;
+    color: rgb(56, 58, 75);
+    font-size: 1em;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #4193A3, 0 0 25px #6CDBF0, 0 0 5px #84F088;
+   
+}
+/* Header style  END */
+
+/* all of h2 Style Start */
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6CDBF0;
+    font-weight: bolder;
+   
+}
+h2:hover{
+    text-decoration: underline;
+    text-shadow:  0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+/* all of h2 Style End */
+
+/* About Me Style  Start */
+#about-article>p:nth-child(2):hover{
+    text-transform: uppercase;
+}
+/* About Me Style  End */
+
+
+/* All of Section Style Start  */
+section{
+    margin: 5em;
+    padding: 2em;
+}
+/* All of Section Style End  */
+
+/* Navbar Style Start  */
+#navbar{
+    position: absolute;
+    padding: 3em;
+    margin: 3em;
+}
+#name-box{
+    position: absolute;
+    width: 20%;  
+}
+
+.btn-div>.nav-link>a{
+    text-decoration: none;
+    color: white;
+}
+.btn-div:hover{
+    border-radius:50%;
+    box-shadow: rgba(98, 162, 101, 0.64) 0px 10px 20px;
+}
+#name{  
+    margin:1rem 10rem;
+    font-size: 3em;
+    margin-left: 450px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+#nav-menu{
+    padding-top: -100px;
+}
+
+.nav-link{
+    font-size:15px;
+    font-family:Arial;
+    width:80px;
+    height:80px;
+    border-width:1px;
+    color:#fff;
+    border-color:#1a7317;
+    font-weight:bold;
+    border-radius: 50%;
+    box-shadow:inset 0px 1px 0px 0px #21a642;
+    text-shadow:inset 0px 1px 0px #267317;
+    background:linear-gradient(#84F088, #62A365);
+    padding: 2px;
+}
+.btn-div{
+    position: relative;
+}
+
+/* Navbar Style End  */
+
+
+/* Button Style Start  */
+#home-link{
+    top: -50px;
+    left: 800px;
+}
+#about-link{
+    top: -30px;
+    left: 750px;
+}
+#education-link{
+    top: -10px;
+    left: 700px;
+}
+#hobbies-link{
+    top: 10px;
+    left: 650px;
+}
+#families-link{
+    top: -160px;
+    left:580px;
+}
+#my-about{    
+    background-color: aliceblue;
+    display: flex;   
+}
+
+/* Button Style End  */
+
+#about-article{
+    margin: 2rem;
+}
+
+
+/* Edeucation Seciton Style Start  */
+.education{
+    display: flex;
+}
+
+.education-box{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    padding : 2em;
+    text-align: center;
+    align-items: center;
+  
+   
+}
+.education-logo{
+    width: 150px;
+    height: 150px;
+}
+#hicoders-logo{
+    width: 195px;
+    height: 25px;
+    vertical-align: middle;
+    padding-bottom: 3rem;
+    
+}
+.education-box>h3{
+    font-size: 20px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+        
+ }
+/* Edeucation Seciton Style End  */
+
+/* Hobbies Seciton Style Start  */
+
+.hobbies-container{
+    display: flex;
+}
+.hobbies-box{
+    display: inline-block;
+    margin-left: 2rem;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    background-color: lightblue;
+    border-radius: 5%;
+    padding-left:2em;
+    margin-bottom: 5em;
+
+}
+.hobbies-image-box{
+    width: 15rem;
+    height: 12rem;
+    position: relative;
+    right: 3rem;
+    top:2.5rem;
+    background-color: lightcoral;
+    border-radius: 5%;
+
+}
+.hobbies-image{
+    border-radius: 5%;
+    width: 15rem;
+    height: 12rem;
+    position: relative;
+    
+}
+.hobbies-info{
+    position: relative;
+    bottom: 10em;
+    left: 15em;
+    max-width:10em ;
+}
+.hobbies-box:nth-of-type(2n-1){
+    background-color: #84F088;
+}
+
+.hobbies-info>h3,.hobbies-info>p{
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.hobbies-image-box:hover{
+   filter: blur(0.1rem); 
+
+}
+/* Hobbies Seciton Style End  */
+
+/* My Family Seciton Style Start  */
+
+#my-family{
+    display: block;
+}
+#family-container{
+    position: relative;
+    align-items: center;
+    vertical-align: middle;
+    top: 400px;
+   
+}
+
+.family-box{
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;  
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;   
+    background-color: rgb(255, 0, 0);
+    width: 400px;
+    height: 400px;
+    transform: rotate(-45deg);
+
+}
+.family-box::after{  
+    background-color: rgb(255, 0, 0);
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 0px;
+    left: 200px;
+    z-index: -1;
+
+}
+
+.family-box::before{  
+    background-color: rgb(255, 0, 0);
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: -200px;
+    left: 0px;
+
+}
+.family-image-box{       
+    width: 200px;
+    height: 200px;
+    background-color: seashell;
+    border-radius: 50%;
+    transform: rotate(45deg);
+  
+}
+.wife{
+    position: absolute;
+    left: 150px;
+    top: -160px;
+}
+
+.girl{   
+    position: absolute;
+    left:290px;
+    top: 45px;   
+   
+}
+.boy{
+    position: absolute;
+    left: 55px;
+    top: 100px;
+}
+.family-image{
+    width: 250px;
+    height:250px;
+    border-radius: 50%;    
+}
+
+.family-table{    
+    font-weight: 600;
+    font-style: italic;
+    caption-side: bottom;
+    color: black;
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
+
+#family-table-area{
+position: relative;
+}
+#I-table{
+    position: absolute;
+    top: 600px;
+    left: 200px;
+}
+#wife-table{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#girl-table{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+/* My Family Seciton Style End  */
