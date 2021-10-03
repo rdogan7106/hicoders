@@ -1,0 +1,151 @@
+/*  Page key features  */
+body{  
+    background-image: linear-gradient( rgba(255, 255, 0, 0.788),pink);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+/*  Main styles  */
+main{   
+    align-items: center;
+    align-content: center;
+    max-width:70vw; 
+    background-color: #80c6f1;  
+   
+}
+hr{
+    border : 0;
+    height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));       
+  }
+  i:hover{    
+    box-shadow: #FFF 0 -1px 4px, rgb(75, 75, 63) 0 -2px 10px, #c4c0bd 0 -10px 20px, rgb(54, 49, 49) 0 -18px 40px, 5px 5px 15px 5px rgba(0,0,0,0);
+    }
+/*  Content styles  */
+.content{   
+    background: #7AB3BF;
+    margin: 0 2em 0 2em ;
+    padding: 0 1em;
+    box-shadow: 5px 5px 15px 5px #000000; 
+    border:rgb(211, 195, 211) 1px solid;  
+    border-radius: 5%;
+}
+/*  Header styles start */
+#head-bar{
+    position: relative;    
+    top: 50px;
+    margin-top: 5em;
+}
+#container-social-p{
+    position: relative;
+    top:-50px;
+}
+#image-container{
+    position: relative;
+    top:-50px;    
+}
+#head-img{
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 8px #ffffff, 0px 0px 0px 16px #dce2dc, 0px 0px 0px 24px #c7ccc7;
+    background: #000000;
+    margin-bottom: 1em;
+}
+#head-bar{
+    text-align: center;
+}
+#social-media{
+    text-align: center;
+    display: inline-flex;
+   align-self: center;
+}
+.social-icon{
+    margin: 1em;
+}
+.person-info{
+    display:block;
+    font-size: 1.2em;
+}
+/*  Header styles End */
+
+/*  Account Settings styles start */
+#info-bar{    
+    margin-top: 5em;
+    margin-bottom: 2em;      
+}
+#info-bar>.settign-container{
+    margin-top: 2em;
+}
+.setting{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.hexagon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30px;
+    height: 16px;
+    position: relative;
+  }
+  
+  .hexagon,.hexagon:before,.hexagon:after {
+    background: #AC1923;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);   
+  }
+  
+  .hexagon:before,.hexagon:after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    width: 18px;
+    height: 18px;
+    transform: rotate(145deg) skew(22.5deg);
+  }
+  
+  .hexagon:before {
+    top: -9px;
+  }  
+  .hexagon:after {
+    top: 9px;
+  }  
+  .hexagon span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 16px;
+    background: #D90404;
+    z-index: 1;
+  }
+  .hexagon>i{
+      z-index: 1;
+      color: white;
+  }
+  /*  Account Settings styles end */
+
+/*  Footer Logo styles end */
+#foot-bar{
+    align-items: center;
+    margin-bottom: 2em;       
+}
+#footer-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding:0 0 2em 0;
+    margin-top: 2em;
+}
+.footer-button{
+    color: whitesmoke ;
+}
+/*  Footer Logo styles end */
+
+
+
