@@ -12,8 +12,7 @@ main{
     align-items: center;
     align-content: center;
     max-width:70vw; 
-    background-color: #80c6f1;  
-   
+    background-color: #80c6f1;    
 }
 hr{
     border : 0;
@@ -84,8 +83,6 @@ hr{
     align-items: center;
     justify-content: space-between;
 }
-
-
 .hexagon {
     display: flex;
     justify-content: center;
@@ -98,8 +95,7 @@ hr{
   .hexagon,.hexagon:before,.hexagon:after {
     background: #AC1923;
     box-shadow: 0 0 10px rgba(0,0,0,0.8);   
-  }
-  
+  }  
   .hexagon:before,.hexagon:after {
     content: "";
     position: absolute;
@@ -107,8 +103,7 @@ hr{
     width: 18px;
     height: 18px;
     transform: rotate(145deg) skew(22.5deg);
-  }
-  
+  }  
   .hexagon:before {
     top: -9px;
   }  
