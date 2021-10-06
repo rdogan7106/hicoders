@@ -1,0 +1,257 @@
+/*  Page key features  */
+*{
+    box-sizing: border-box;
+    font-family: 'Yaldevi', sans-serif;;
+}
+/*  Main styles  */
+main{
+    display: flex;
+    justify-content: center;
+}
+/*  Background styles  */
+.back-container{
+    position: relative;
+    width: 750px;
+    border: black 1px solid;
+    overflow:hidden !important;    
+}
+.circle{
+    border-radius: 50%;
+    background-color: aqua;
+    position: relative;  
+   
+}
+.circle-1{
+    width: 75px;
+    height: 75px;
+    left: 110px;
+    top: 15px;
+    overflow:hidden;
+    background-color: #85c1e4;
+    
+}
+.circle-2{
+    width: 110px;
+    height: 110px;
+    left: 620px;
+    top: -100px;
+    background-color: #61B9EB;
+}
+.circle-3{
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: -50px;
+    background-color: #84C9F1;
+    
+}
+.circle-4{
+    width:250px;
+    height: 250px;
+    left: 550px;
+    top: 80px;
+    background-color: #9BD1F2;
+}
+/*  Header styles start */
+.main-content{
+    position: relative;
+    top: -500px;
+    left: 240px;
+    background-color: snow;
+    width: 270px;
+}
+#head-content{
+    margin-top: -2em;
+}
+.header{
+    height: 150px;
+    background-color:#4A92E8;
+    width: 270px;
+    margin-bottom: 2rem;
+  
+}
+#header-icon{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#image-container{
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+    margin-top: 5rem;
+    -webkit-box-shadow: 0px 7px 7px -2px rgba(0,0,0,0.46);
+    -moz-box-shadow: 0px 7px 7px -2px rgba(0,0,0,0.46);
+    box-shadow: 0px 7px 7px -2px rgba(0,0,0,0.46);;
+    border-radius: 5%;
+}
+#head-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+}
+
+#foto-icon{
+    position: relative;
+    top: -55px;
+    left: 20px;
+    color: yellowgreen;    
+}
+#social-media{
+    display: flex;
+    justify-content: center;
+    padding: 0 2em;
+}
+.social-icon{
+    padding: 0 5px;
+}
+#idbox{
+    margin-top: -3em;
+}
+h1{
+    font-size: 18px;
+    line-height: 20%;
+    color: rgb(37, 35, 35,0.8);
+}
+h2,h3{
+    line-height: 15%;
+    font-size: 12px;
+    color: rgb(136, 146, 156);
+}
+#p-container{
+    padding-bottom: 1em;
+}
+#p-container>.person-info{
+    font-size: 12px;
+    color: rgb(136, 146, 156);
+}
+#social-media>.social-icon>i{
+    color: rgb(107, 111, 114);
+    font-size: 18px;
+}
+
+/*  Header styles end  */
+/*  Account Settings styles start */
+#info-bar{    
+    margin-top: 5em;
+    padding-top: 5em;   
+    width: 270px;   
+}
+.arrow-icon{
+    margin-right: 10px;
+}
+#info-bar>.settign-container{
+    margin-top: 0em;
+
+}
+.content-bar{
+    margin-top: 5em;   
+    background-color: rgb(255, 255, 255);
+    margin: 0 10px;
+    -webkit-box-shadow: 0px 7px 7px -2px rgba(0,0,0,0.46);
+    -moz-box-shadow: 0px 7px 7px -2px rgba(0,0,0,0.46);
+    box-shadow: 0px 7px 7px -2px rgba(0,0,0,0.46);
+    border-radius: 5%;
+}
+.setting{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(136, 146, 156);
+}
+.setting-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.setting-1>p{
+    padding-left: 1em;
+}
+.content>h2{
+    margin: 10px 10px 20px 10px;
+}
+.hexagon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:20px;
+    height: 11px;
+    position: relative;
+  }
+  
+  .hexagon,.hexagon:before,.hexagon:after {
+    background: #AC1923;
+
+  }
+  
+  .hexagon:before,.hexagon:after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(145deg) skew(22.5deg);
+  }
+  
+  .hexagon:before {
+    top: -6px;
+  }  
+  .hexagon:after {
+    top: 6px;
+  }  
+  .hexagon span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 11px;
+    background: #D90404;
+    z-index: 1;
+  }
+  .hexagon>i{
+      z-index: 1;
+      color: white;
+  }
+  .hexagon>i{
+      font-size: 10px;
+  }
+  /*  Account Settings styles End */ 
+  
+  /*  Footer Logo styles start */
+  .foot-content{
+    margin-top: 2em;
+    margin-bottom: -1em;    
+  }
+
+  #foot-bar{
+    align-items: center;    
+    width: 270px;
+    margin-top: 1;    
+}
+#footer-container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding:0em 2em 0em 2em;
+    align-items: center;    
+    -webkit-box-shadow: 2px -8px 7px -7px rgba(0,0,0,0.63);
+    -moz-box-shadow: 2px -8px 7px -7px rgba(0,0,0,0.63);
+    box-shadow: 2px -8px 7px -7px rgba(0,0,0,0.63);      
+   
+}
+.footer-button{
+    color:rgb(136, 146, 156);
+}
+/*  Footer Logo styles end */
