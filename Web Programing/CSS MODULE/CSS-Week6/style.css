@@ -1,0 +1,303 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  background-color: #89BFFC;
+}
+main,.area-2,#area-2-round,.area-7,.area-4,.area-5,.area-6,.area-8,.area-9{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.container {
+  display: flex;
+  margin: 1rem;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  padding: 1rem;
+  max-width: 100%;
+}
+/*Area-1 Styles image in the upper left corner */
+.area-1 {
+  background-color: white;
+  max-height: 10rem;
+  margin: 1rem;
+  margin-left: 1rem;
+}
+#area-1-div-1 {
+  padding: 0.5rem 10rem;
+  background-color:#89BFFC;
+  margin: 2rem;
+  margin-bottom: 0;
+}
+#area-1-div-2 {
+  padding: 0.3rem;
+  background-color: #89BFFC;
+  margin: 0.4rem 2rem;
+}
+#area-1-div-3 {
+  padding: 1rem 2rem;
+  background-color: #89BFFC;
+  margin: 2rem 10rem;
+}
+/*Area-2 Styles  Picture with video button in the upper middle */
+.area-2 {
+  background-color: white;
+  margin: 1rem;   
+  max-height: 10rem;
+}
+#area-2-round {
+  justify-content: space-around; 
+  background-color: white;
+  padding: 0.8rem 0.8rem;
+  border-radius: 50%;
+  border: none;
+  background-color: #89BFFC;
+  margin: 3.4rem 16rem;
+}
+#area-2-triangle {
+  position: relative;
+  left: 0.1rem;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 1rem 0 1em 2rem;
+  border-color: transparent transparent transparent #fdfdfd;
+}
+
+/*Area-3 Styles bars in the upper right corner */
+.area-3 {  
+  background-color: #89BFFC;  
+}
+.area-3-bar {
+  background: white;  
+  padding: 0.6rem 6rem;
+  margin: 1rem 0rem 1rem 1rem;
+}
+/*Area-7 Styles little buttons between pictures*/
+.area-7 { 
+  position: relative;
+  left: -22rem;
+  top: 5rem;
+}
+#left-btn-box {
+  background-color: white;
+  width: 3em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#left-btn-round-1 {
+  position: relative;
+  left: -25%;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border:#89BFFC 1px solid;
+  background-color: rgb(255, 255, 255);
+}
+#left-btn-round-2 {
+  position: relative;
+  left: 25%;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+#right-btn-box {
+  position: absolute;
+  background-color: white;
+  width: 3em;
+  height: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 4rem;
+}
+#right-btn-round-1 {
+  position: relative;
+  left: -25%;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+#right-btn-round-2 {
+  position: relative;
+  left: 25%;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #89BFFC;
+  border: rgb(236, 236, 236) 1px solid;
+}
+/*Area-4 Styles phone picture on the left */
+.area-4 {  
+  min-width: 10rem;
+  min-height: 20rem;
+  background-color: white;
+  margin-left: 1rem;
+  border-radius: 10px;
+  margin-top: -4rem;
+}
+#area-4-container {
+  margin: 0 0.4rem;
+}
+.area-4-box {
+  background-color: rgb(255, 255, 255);
+  margin: 0.3rem;
+  padding: 1rem 3rem;
+}
+hr {
+  grid-row: inherit;
+  background: #89BFFC;
+  padding-top: 0.1rem;
+  border-style: none;
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+  border-bottom-left-radius: 0.1rem;
+  border-bottom-right-radius: 0.1rem;
+  border: none;
+  margin: 0;
+  width: 4rem;
+}
+.area-4-box:nth-child(2) {
+  background-color: #89BFFC;
+  margin: 0.2rem;
+  padding: 8.2rem 0.2rem;
+}
+#area-4-box-round {
+  background-color: rgb(255, 255, 255);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 0;
+  margin-left: 1rem;
+  margin-top: -0.5rem;
+  border:#89BFFC 1px solid;
+}
+/*Area-5 Styles middle big picture */
+.area-5 {
+  background-color: white;
+  margin: -4rem 1.25rem 0rem 1.75rem;
+ 
+  padding: 0 10rem;
+  
+}
+#area-5-container {
+  position: relative;
+}
+#area-5-round {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -3rem;
+  background-color: #89BFFC;
+}
+#area-5-triangle-1 {
+  position: relative;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 3rem 4rem 3rem;
+  border-color: transparent transparent #89BFFC transparent;
+}
+#area-5-triangle-2 {
+  position: relative;
+  left: -1rem;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 4rem 6rem 4rem;
+  border-color: transparent transparent #89BFFC transparent;
+}
+#slide-box {
+  display: flex;
+  position: relative;
+  top: 9rem;
+  right: 9rem;
+  align-items: flex-end;
+  justify-content: center;
+}
+.slide {
+  width: 0.3rem;
+  height: 0.3rem;
+  background-color:#89BFFC;
+  margin: 0.5rem;
+  border-radius: 50%;
+}
+/*Area-6 Styles right side small picture*/
+.area-6 { 
+  background-color: white;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: 4rem 4rem;
+  margin-right: 1rem;
+}
+#area-6-container {
+  position: relative;
+  background-color: white;
+}
+#area-6-round {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -3rem;
+  background-color: #89BFFC;
+}
+#area-6-triangle-1 {
+  position: relative;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 3rem 4rem 3rem;
+  border-color: transparent transparent #89BFFC transparent;
+}
+#area-6-triangle-2 {
+  position: relative;
+  left: -1rem;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 4rem 6rem 4rem;
+  border-color: transparent transparent #89BFFC transparent;
+}
+/*Area-8 Styles progress bar at the bottom*/
+.area-8 {   
+  background-color: white;
+  margin: 1rem;
+  padding-right: 10rem;
+}
+#blue-box {
+  margin: 0.2rem;
+  padding: 1rem;
+  padding-right: 41rem;
+  background-color: #89BFFC;
+  width: 70%;
+}
+/*Area-9 Styles Social Media Icons*/
+.area-9 {
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  margin-left: -1rem;
+}
+#icon-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.icon {
+  margin: 0 1.1rem;
+}
